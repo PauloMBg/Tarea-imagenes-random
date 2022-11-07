@@ -1,0 +1,14 @@
+body {
+    width: 100vh;
+    height: 100vh;
+}
+
+.imgContainer {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
