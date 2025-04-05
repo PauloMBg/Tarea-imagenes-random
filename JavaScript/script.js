@@ -1,9 +1,8 @@
-let imagenUwU = document.getElementById("imagen");
-let aleatorio = document.getElementById("botoncito");
+let imgContainer = document.querySelector(".imgContainer");
 
-aleatorio.addEventListener("click", e => {
+imgContainer.addEventListener("click", () => {
     let val = Math.round(Math.random() * 1000);
     val = val % 10 + 1;
-    console.log(val);
-    imagenUwU.src = "MEDIA/imagen" + val + ".jpg";
+    console.log(val)
+    imagen.src = `MEDIA/imagen${val}.jpg`;
 })
